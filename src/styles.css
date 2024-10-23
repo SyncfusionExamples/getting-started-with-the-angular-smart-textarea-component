@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/@syncfusion/ej2-base/styles/fluent2.css";
+@import "../node_modules/@syncfusion/ej2-angular-inputs/styles/fluent2.css";
+@import "../node_modules/@syncfusion/ej2-angular-dropdowns/styles/fluent2.css";
+.container {
+    margin-top: 100px;
+    text-align: center;
+}
+.label {
+    width: 72%;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.e-dropdownlist {
+    margin-bottom: 20px;
+}

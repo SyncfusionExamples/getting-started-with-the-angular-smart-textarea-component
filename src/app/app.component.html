@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="label">Select a role</div>
+  <ejs-dropdownlist width="438px" 
+  [dataSource]='rolesData'
+  value="Employee communicating with internal team" 
+  popupHeight="200px"
+  (change)="dropDownChange($event)">
+  </ejs-dropdownlist>
+  <ejs-smarttextarea #textareaObj placeholder="Enter your queries here"
+  rows="6" cols="60"
+  userRole="Employee communicating with internal team"
+  [UserPhrases]="defaultPreset"
+  [aiSuggestionHandler]="serverAIRequest">
+  </ejs-smarttextarea>
+</div>
